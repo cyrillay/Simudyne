@@ -20,3 +20,5 @@ Step 6 : You can find all the output in different files:
         - 5 .csv files that contains each category, with the last value of each line corresponding to the year.
 
 Step 7 : You can run the program again with a different value of brand_factor, it will create erase and create new output files.
+
+Optional : If you want to speed up the process, you can remove the console output (lines 106,114,122,130,138)
