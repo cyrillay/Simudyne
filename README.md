@@ -3,7 +3,7 @@
 Step 0 : Download python at https://www.python.org/downloads/
 
 Step 1 : Convert the .xlsx file to a .csv (I used a free online tool like https://convertio.co/fr/xlsx-csv/)
-         I included the already converted file in the repository.
+         I included the already converted file in the repository, so you can download the project as a ZIP, extract it and directly run it with step 3
 
 Step 2 : Place the .csv file in the same directory as back_end_test.py
 
