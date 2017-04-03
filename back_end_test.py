@@ -13,7 +13,7 @@ with open('Simudyne_Backend_Test.csv', 'r') as input_file:
   data = list(reader)
 
 #Opening the output files
-  #each ofile corresponds to a .csv output file
+#each ofile corresponds to a .csv output file
 output_file = open("data.txt", "w")
 ofile = open('Breed_C Agents.csv', 'w', newline='')
 owriter = csv.writer(ofile, delimiter=',',quoting=csv.QUOTE_ALL)
@@ -61,7 +61,7 @@ for year in range(0,15):
     for i in range(1,len(data)):
 
         if not int(data[i][row_auto_renew]): #auto_renew=False
-            #Get the different values from the agent n°i
+            #Get the different values from the agent nÂ°i
             payment_at_purchase = float(data[i][row_payment_at_purchase])
             attribute_price = float(data[i][row_price])
             attribute_promotions = float(data[i][row_promotions])
@@ -99,7 +99,7 @@ for year in range(0,15):
 #3. OUTPUT
         
 
-    output_file.write("\n\nYear n° :"+str(year)+"\n\n")
+    output_file.write("\n\nYear nÂ° :"+str(year)+"\n\n")
 
     
     #Breed_C Agents output
